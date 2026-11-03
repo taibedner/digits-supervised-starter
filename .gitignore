@@ -1,0 +1,33 @@
+# Python and editors
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+.vscode/
+.idea/
+.DS_Store
+# Model weights, datasets and generated results stay local
+runs/
+outputs/
+data/
+*.joblib
+*.pkl
+*.npz
+*.npy
+*.png
+*.jpg
+*.jpeg
+*.log
+# Personal configuration and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+
